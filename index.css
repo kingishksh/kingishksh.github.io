@@ -7,6 +7,13 @@ html {
   background: url("img/portfolio/bg03.png") no-repeat center center fixed;
   background-size: cover;
 }
+p{
+  font-size: 20px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  margin-left: 5em;
+  margin-right: 5em;
+}
 h1, h2{
   text-align: center;
   font-family: foolishKing;
