@@ -1,10 +1,9 @@
 html {
-  background: url("img/portfolio/bg02.png") no-repeat center center fixed;
+  background: url("img/portfolio/bg03.png") no-repeat center center fixed;
   background-size: cover;
 }
 h1{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: white;
 }
 
 /* The Modal (background) */
