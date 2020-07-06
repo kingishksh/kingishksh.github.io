@@ -1,8 +1,3 @@
-@font-face {
-  font-family: foolishKing;
-  src: url(./foolishKing-Regular.tff);
-}
-
 html {
   background: url("img/portfolio/bg03.png") no-repeat center center fixed;
   background-size: cover;
@@ -25,9 +20,7 @@ h1{
 h2{
   font-size: 60px;
 }
-img.animated-gif{
-  width: 50%;
-  height: 50%;
+img{
   display: block;
   margin-left: auto;
   margin-right: auto;
