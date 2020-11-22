@@ -1,5 +1,5 @@
 html {
-  background: url("img/portfolio/bg03.png") no-repeat center center fixed;
+  background: url("img/portfolio/bg_index_b.png") no-repeat center center fixed;
   background-size: cover;
 }
 p{
@@ -9,9 +9,8 @@ p{
   margin-left: 5em;
   margin-right: 5em;
 }
-h1, h2{
+h1, h3{
   text-align: center;
-  font-family: foolishKing;
   color: black;
 }
 h1{
