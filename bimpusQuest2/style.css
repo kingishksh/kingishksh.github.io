@@ -1,0 +1,20 @@
+.input {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 64px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.response {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    max-width: 500px;
+}
