@@ -1,0 +1,64 @@
+.page {
+  display: none;
+}
+
+/* required */
+.loading {
+  margin: 3em auto auto auto;
+  background: white;
+}
+
+.navbar {
+  color: grey;
+  font-family: sans-serif;
+  z-index: -1;
+  width: 100%;
+  height: 3em;
+}
+
+p,
+h1 {
+  color: white;
+  max-width: 100%;
+}
+
+.navbar td:hover {
+  color: white;
+  background: grey;
+}
+
+body {
+  background: black;
+  /*height: 640px;*/
+  margin: 0em auto 0em auto;
+}
+
+.divCenter {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+}
+
+.centerpicture {
+  display: block;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+.intro {
+  color: black;
+  text-align: justify;
+}
+
+.centerksh {
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.command {
+  color: lightcoral;
+}

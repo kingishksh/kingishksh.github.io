@@ -1,0 +1,204 @@
+@font-face {
+  font-family: "adultSwim";
+  src: url("../fonts/adultSwim.ttf");
+}
+
+@font-face {
+  font-family: "impact";
+  src: url("../fonts/impact.ttf");
+}
+
+@font-face {
+  font-family: "kshFont";
+  src: url("../fonts/Foolishking-Regular.ttf");
+}
+
+@font-face {
+  font-family: "LibreFranklinBlack";
+  src: url("../fonts/LibreFranklin-Black.ttf");
+}
+
+@font-face {
+  font-family: "cagerollCage";
+  src: url("../fonts/Cageroll-Cage.otf");
+}
+
+@font-face {
+  font-family: "cagerollRoll";
+  src: url("../fonts/Cageroll-Roll.otf");
+}
+
+@font-face {
+  font-family: "cagerollStandard";
+  src: url("../fonts/Cageroll-Standard.otf");
+}
+
+html {
+  font-family: LibreFranklinBlack;
+  background: black;
+  background-size: cover;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: white;
+}
+
+.divCenter {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: auto;
+}
+
+.centerImage {
+  z-index: -1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  max-height: 100%;
+  animation: fadeIn 0.7s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* Portfolio Stuff*/
+
+@media (orientation: landscape) {
+  .modal img {
+    height: 80%;
+    max-height: 100vh;
+  }
+}
+
+@media (orientation: portrait) {
+  .modal img {
+    width: 100%;
+    max-width: 100vh;
+  }
+  .portfolio img {
+    cursor: pointer;
+    margin: 5px;
+    max-width: 100px;
+  }
+}
+
+.modal {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  animation: fadeIn 0.4s;
+  text-align: center;
+}
+
+.modal span {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.modalButtons {
+  display: block;
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio img {
+  cursor: pointer;
+  margin: 3px;
+}
+
+.portfolio img:hover {
+  opacity: 0.5;
+}
+
+/*Beginning of Toolbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 5px;
+  border: white;
+  border-style: groove;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+li a:hover {
+  background-color: rgba(255, 0, 64, 0.5);
+}
+
+/*End of Toolbar*/
+
+/* Banner styles */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 42.19%; /* Adjust this value to maintain the desired aspect ratio */
+  background-image: url(../img/portfolio/2022/22.05.21_cnColors.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.banner::before {
+  content: "";
+  display: block;
+  padding-top: 0; /* Set to 0 if you want to remove any additional space at the top of the banner */
+}
+
+footer {
+  background-color: rgb(15, 15, 15);
+  /* background-image: url(../img/assets/bg05.png); */
+  background-size: cover;
+  /* opacity: 30%; */
+}
+
+footer img {
+  height: 50px;
+  width: 50px;
+}
